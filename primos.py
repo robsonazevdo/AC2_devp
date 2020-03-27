@@ -20,7 +20,7 @@ def primos():
         if cont == 2:
             cont2 += 1         
 
-    return x + ','
+    return x 
 
 
 
