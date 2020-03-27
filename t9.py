@@ -1,11 +1,11 @@
 import os
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request
 from math import sqrt
 
-app = Flask(__name__ )
+app = Flask(__name__)
 
 @app.route('/')
-def p_primos():
+def nao_entre_em_panico():
     primos = []
     for div in range(1,550+1):
         cont = 0
@@ -26,11 +26,7 @@ def p_primos():
         primos1 += ' --> ' + str(b) + '<br>'
         a += 10
         b += 10    
-
-                    
     return primos1
-
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
