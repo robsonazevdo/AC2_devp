@@ -1,0 +1,100 @@
+2020-03-27T01:50:28.151783+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-03-27T01:50:28.222482+00:00 heroku[web.1]: Process exited with status 143
+2020-03-27T14:29:23.000000+00:00 app[api]: Build started by user spveiok@hotmail.com
+2020-03-27T14:29:49.101260+00:00 heroku[web.1]: State changed from down to starting
+2020-03-27T14:29:48.677011+00:00 app[api]: Deploy 81a37b22 by user spveiok@hotmail.com
+2020-03-27T14:29:48.677011+00:00 app[api]: Release v5 created by user spveiok@hotmail.com
+2020-03-27T14:29:52.136496+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-03-27T14:29:55.117220+00:00 heroku[web.1]: State changed from starting to up
+2020-03-27T14:29:54.854032+00:00 app[web.1]: * Running on http://0.0.0.0:57827/ (Press CTRL+C to quit)
+2020-03-27T14:29:57.000000+00:00 app[api]: Build succeeded
+2020-03-27T14:31:45.930667+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=0bc9c420-53b7-409d-9178-597124b56675 fwd="187.38.61.187" dyno=web.1 connect=0ms service=11ms status=200 bytes=637 protocol=https
+2020-03-27T14:31:45.934856+00:00 app[web.1]: 10.152.193.4 - - [27/Mar/2020 14:31:45] "GET / HTTP/1.1" 200 -
+2020-03-27T14:31:46.454646+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=b8c19658-7810-4e4f-84d8-12a50340cca2 fwd="187.38.61.187" dyno=web.1 connect=0ms service=23ms status=404 bytes=380 protocol=https
+2020-03-27T14:31:46.457118+00:00 app[web.1]: 10.152.193.4 - - [27/Mar/2020 14:31:46] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-27T14:33:28.283795+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=0651a837-744e-48a0-9b32-df976da16ccb fwd="187.38.61.187" dyno=web.1 connect=0ms service=15ms status=200 bytes=637 protocol=https
+2020-03-27T14:33:28.284680+00:00 app[web.1]: 10.111.188.18 - - [27/Mar/2020 14:33:28] "GET / HTTP/1.1" 200 -
+2020-03-27T14:33:40.302172+00:00 app[web.1]: 10.123.254.53 - - [27/Mar/2020 14:33:40] "GET / HTTP/1.1" 200 -
+2020-03-27T14:33:40.299516+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=e4d75b29-2bfb-4ee2-9f27-865928e52687 fwd="177.33.140.47" dyno=web.1 connect=1ms service=25ms status=200 bytes=637 protocol=https
+2020-03-27T14:33:40.925901+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=5d345981-9aee-4492-8b6d-24d01e9d21d9 fwd="177.33.140.47" dyno=web.1 connect=1ms service=2ms status=404 bytes=380 protocol=https
+2020-03-27T14:33:40.928966+00:00 app[web.1]: 10.123.254.53 - - [27/Mar/2020 14:33:40] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-27T14:33:46.348632+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=b9c9afa5-3542-40e5-b754-fc3c0cb34d04 fwd="187.38.61.187" dyno=web.1 connect=1ms service=38ms status=200 bytes=637 protocol=https
+2020-03-27T14:33:46.349780+00:00 app[web.1]: 10.43.188.220 - - [27/Mar/2020 14:33:46] "GET / HTTP/1.1" 200 -
+2020-03-27T14:33:46.948807+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=2f252ccd-9573-4a0d-ba92-0950d7c5350d fwd="187.38.61.187" dyno=web.1 connect=1ms service=3ms status=404 bytes=380 protocol=https
+2020-03-27T14:33:46.950128+00:00 app[web.1]: 10.43.188.220 - - [27/Mar/2020 14:33:46] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-27T14:34:15.191946+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=1c1ff84f-6f85-48ba-9ca9-e90633eed135 fwd="177.62.38.47" dyno=web.1 connect=1ms service=16ms status=200 bytes=637 protocol=https
+2020-03-27T14:34:15.193969+00:00 app[web.1]: 10.95.191.28 - - [27/Mar/2020 14:34:15] "GET / HTTP/1.1" 200 -
+2020-03-27T14:34:15.811939+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=2bd508bb-3de4-4cd4-a1b9-612f9a9a5b77 fwd="177.62.38.47" dyno=web.1 connect=4ms service=3ms status=404 bytes=380 protocol=https
+2020-03-27T14:34:15.813364+00:00 app[web.1]: 10.7.247.67 - - [27/Mar/2020 14:34:15] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-27T14:34:29.711264+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=fa21bf38-107c-4c4b-9fa0-2239ad0410f3 fwd="187.38.61.187" dyno=web.1 connect=1ms service=19ms status=200 bytes=637 protocol=https
+2020-03-27T14:34:29.712215+00:00 app[web.1]: 10.43.188.220 - - [27/Mar/2020 14:34:29] "GET / HTTP/1.1" 200 -
+2020-03-27T14:37:44.334753+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=de3e6676-d0b2-4b1a-991f-24ea62e370c9 fwd="187.37.188.148" dyno=web.1 connect=1ms service=12ms status=200 bytes=637 protocol=https
+2020-03-27T14:37:44.337798+00:00 app[web.1]: 10.171.230.57 - - [27/Mar/2020 14:37:44] "GET / HTTP/1.1" 200 -
+2020-03-27T14:37:45.136503+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=19004618-1ce8-4328-a055-73a8c0d15a3e fwd="187.37.188.148" dyno=web.1 connect=0ms service=3ms status=404 bytes=380 protocol=https
+2020-03-27T14:37:45.140493+00:00 app[web.1]: 10.47.221.227 - - [27/Mar/2020 14:37:45] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-27T14:38:24.443356+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=a3b401fd-4f6d-423f-991c-8c856f4976fe fwd="187.38.61.187" dyno=web.1 connect=1ms service=24ms status=200 bytes=637 protocol=https
+2020-03-27T14:38:24.443118+00:00 app[web.1]: 10.111.171.190 - - [27/Mar/2020 14:38:24] "GET / HTTP/1.1" 200 -
+2020-03-27T14:39:42.707427+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=fdfca637-3dff-41a8-b07b-cbef5001d0f3 fwd="187.38.61.187" dyno=web.1 connect=0ms service=17ms status=200 bytes=637 protocol=https
+2020-03-27T14:39:42.711521+00:00 app[web.1]: 10.109.220.238 - - [27/Mar/2020 14:39:42] "GET / HTTP/1.1" 200 -
+2020-03-27T14:40:06.187872+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=00961c2c-74c7-41c2-aec3-9ffa03e53db3 fwd="177.33.138.64" dyno=web.1 connect=1ms service=13ms status=200 bytes=637 protocol=https
+2020-03-27T14:40:06.189487+00:00 app[web.1]: 10.63.255.131 - - [27/Mar/2020 14:40:06] "GET / HTTP/1.1" 200 -
+2020-03-27T14:40:06.576871+00:00 app[web.1]: 10.63.255.131 - - [27/Mar/2020 14:40:06] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-27T14:40:06.575345+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=779ea430-9598-444a-a0f0-f5c130e98dea fwd="177.33.138.64" dyno=web.1 connect=1ms service=2ms status=404 bytes=380 protocol=https
+2020-03-27T14:40:27.700776+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=3f76431a-acae-4284-87c5-67ebe69e0cb6 fwd="177.33.138.64" dyno=web.1 connect=1ms service=28ms status=200 bytes=637 protocol=https
+2020-03-27T14:40:27.702279+00:00 app[web.1]: 10.63.255.131 - - [27/Mar/2020 14:40:27] "GET / HTTP/1.1" 200 -
+2020-03-27T14:52:24.951497+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=e1731d10-2aa1-4fe5-85e6-b8911ad9f373 fwd="187.38.61.187" dyno=web.1 connect=1ms service=21ms status=200 bytes=637 protocol=https
+2020-03-27T14:52:24.954793+00:00 app[web.1]: 10.47.238.26 - - [27/Mar/2020 14:52:24] "GET / HTTP/1.1" 200 -
+2020-03-27T15:03:09.680575+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=4121fdcf-8e4f-4742-8439-d9e0b6931081 fwd="177.33.138.64" dyno=web.1 connect=0ms service=26ms status=200 bytes=637 protocol=https
+2020-03-27T15:03:09.679863+00:00 app[web.1]: 10.79.206.66 - - [27/Mar/2020 15:03:09] "GET / HTTP/1.1" 200 -
+2020-03-27T15:07:50.223807+00:00 app[web.1]: 10.61.152.114 - - [27/Mar/2020 15:07:50] "GET / HTTP/1.1" 200 -
+2020-03-27T15:07:50.223178+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=d73be357-c212-43bc-95a2-8287cff19a2c fwd="187.26.205.144" dyno=web.1 connect=1ms service=16ms status=200 bytes=637 protocol=https
+2020-03-27T15:07:50.975218+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=459d8b98-4af4-4a95-bac3-007640a7e39e fwd="187.26.205.144" dyno=web.1 connect=0ms service=4ms status=404 bytes=380 protocol=https
+2020-03-27T15:07:50.978694+00:00 app[web.1]: 10.11.241.172 - - [27/Mar/2020 15:07:50] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-27T15:42:46.440280+00:00 heroku[web.1]: Idling
+2020-03-27T15:42:46.444688+00:00 heroku[web.1]: State changed from up to down
+2020-03-27T15:42:47.865403+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-03-27T15:42:47.977074+00:00 heroku[web.1]: Process exited with status 143
+2020-03-30T13:50:30.449457+00:00 heroku[web.1]: Unidling
+2020-03-30T13:50:30.451924+00:00 heroku[web.1]: State changed from down to starting
+2020-03-30T13:50:35.941355+00:00 app[web.1]: * Running on http://0.0.0.0:14002/ (Press CTRL+C to quit)
+2020-03-30T13:50:36.498535+00:00 heroku[web.1]: State changed from starting to up
+2020-03-30T13:50:37.519746+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=5bfae08e-d04c-403b-a681-53496e57bb97 fwd="177.58.235.98" dyno=web.1 connect=0ms service=19ms status=200 bytes=637 protocol=https
+2020-03-30T13:50:37.518817+00:00 app[web.1]: 10.5.239.252 - - [30/Mar/2020 13:50:37] "GET / HTTP/1.1" 200 -
+2020-03-30T13:50:38.459021+00:00 app[web.1]: 10.5.239.252 - - [30/Mar/2020 13:50:38] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-30T13:50:38.460069+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=fe86f050-3c1f-4b86-8dd8-3df54dc7d02c fwd="177.58.235.98" dyno=web.1 connect=0ms service=17ms status=404 bytes=380 protocol=https
+2020-03-30T14:22:39.795349+00:00 heroku[web.1]: Idling
+2020-03-30T14:22:39.798919+00:00 heroku[web.1]: State changed from up to down
+2020-03-30T15:12:12.959711+00:00 heroku[web.1]: Unidling
+2020-03-30T15:12:12.974158+00:00 heroku[web.1]: State changed from down to starting
+2020-03-30T15:12:17.049087+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-03-30T15:12:19.815367+00:00 app[web.1]: * Running on http://0.0.0.0:36412/ (Press CTRL+C to quit)
+2020-03-30T15:12:20.256885+00:00 heroku[web.1]: State changed from starting to up
+2020-03-30T15:12:22.040449+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=133b5469-f3f0-47f2-83b1-da3273134556 fwd="187.38.61.187" dyno=web.1 connect=1ms service=11ms status=200 bytes=637 protocol=https
+2020-03-30T15:12:22.040053+00:00 app[web.1]: 10.5.233.91 - - [30/Mar/2020 15:12:22] "GET / HTTP/1.1" 200 -
+2020-03-30T15:12:22.482575+00:00 app[web.1]: 10.5.233.91 - - [30/Mar/2020 15:12:22] "GET /favicon.ico HTTP/1.1" 404 -
+2020-03-30T15:12:22.482989+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=e708b6cd-8293-4717-bc09-5cdbcf0f58be fwd="187.38.61.187" dyno=web.1 connect=1ms service=18ms status=404 bytes=380 protocol=https
+2020-03-30T15:13:46.813584+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=f31a63e0-520b-48b4-9e1a-c7ba1866c4e3 fwd="187.38.61.187" dyno=web.1 connect=1ms service=11ms status=200 bytes=637 protocol=https
+2020-03-30T15:13:46.812947+00:00 app[web.1]: 10.61.214.174 - - [30/Mar/2020 15:13:46] "GET / HTTP/1.1" 200 -
+2020-03-30T15:47:03.483544+00:00 heroku[web.1]: Idling
+2020-03-30T15:47:03.488466+00:00 heroku[web.1]: State changed from up to down
+2020-03-30T15:47:04.821584+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-03-30T15:47:04.906915+00:00 heroku[web.1]: Process exited with status 143
+2020-03-30T18:55:22.864479+00:00 heroku[web.1]: Unidling
+2020-03-30T18:55:22.879409+00:00 heroku[web.1]: State changed from down to starting
+2020-03-30T18:55:27.918206+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-03-30T18:55:31.858023+00:00 heroku[web.1]: State changed from starting to up
+2020-03-30T18:55:31.563451+00:00 app[web.1]: * Running on http://0.0.0.0:51108/ (Press CTRL+C to quit)
+2020-03-30T18:55:32.960673+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=abd3689c-6905-4e6d-bf6d-86bcf92cf00c fwd="187.38.61.187" dyno=web.1 connect=2ms service=27ms status=200 bytes=637 protocol=https
+2020-03-30T18:55:32.952948+00:00 app[web.1]: 10.33.206.158 - - [30/Mar/2020 18:55:32] "GET / HTTP/1.1" 200 -
+2020-03-30T19:32:51.749847+00:00 heroku[web.1]: Idling
+2020-03-30T19:32:51.752987+00:00 heroku[web.1]: State changed from up to down
+2020-03-30T19:32:55.970228+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-03-30T19:32:56.106444+00:00 heroku[web.1]: Process exited with status 143
+2020-04-02T22:25:10.631715+00:00 heroku[web.1]: Unidling
+2020-04-02T22:25:10.634726+00:00 heroku[web.1]: State changed from down to starting
+2020-04-02T22:25:19.436431+00:00 heroku[web.1]: State changed from starting to up
+2020-04-02T22:25:19.039291+00:00 app[web.1]: * Running on http://0.0.0.0:30524/ (Press CTRL+C to quit)
+2020-04-02T22:25:20.742506+00:00 heroku[router]: at=info method=GET path="/" host=immense-headland-01914.herokuapp.com request_id=63205101-740f-4f0e-bfa7-0f424e3d1a51 fwd="187.38.61.187" dyno=web.1 connect=1ms service=45ms status=200 bytes=637 protocol=https
+2020-04-02T22:25:20.740790+00:00 app[web.1]: 10.67.208.135 - - [02/Apr/2020 22:25:20] "GET / HTTP/1.1" 200 -
+2020-04-02T22:25:21.966420+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-headland-01914.herokuapp.com request_id=c4627766-8c75-42d5-bf4f-af43d3374c8b fwd="187.38.61.187" dyno=web.1 connect=1ms service=34ms status=404 bytes=380 protocol=https
+2020-04-02T22:25:21.964823+00:00 app[web.1]: 10.67.208.135 - - [02/Apr/2020 22:25:21] "GET /favicon.ico HTTP/1.1" 404 -
